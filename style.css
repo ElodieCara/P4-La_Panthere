@@ -688,6 +688,11 @@ p {
     
 }
 
+em {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
