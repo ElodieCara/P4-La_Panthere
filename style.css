@@ -560,6 +560,12 @@ a[data-lightbox]:hover img {
     animation-fill-mode: none;
 }
 
+.img-responsive {
+ margin: auto;
+ height: 270px;
+ width: 270px;
+}
+
 #lightbox-modal {
     display: flex;
     align-items: center;
@@ -755,6 +761,8 @@ h4 {
 }
 
 .black-background {
+   /* modification color fond plus opaque */
+   /* background-color: rgb(165 147 99); */
    background-color: rgba(165, 147, 99, 0.7);
    padding: 40px 40px 40px 40px;
 }
@@ -778,9 +786,9 @@ h4 {
 }
 
 .tc-white {
-    /* modification color name white mais color orange ??? */
     color: #FFFFFF!important;
-    /* color: #F3976C!important; */
+    /* modification color
+    color: #F3976C!important; */
 }
 
 .btn-atomic-tangerine {
